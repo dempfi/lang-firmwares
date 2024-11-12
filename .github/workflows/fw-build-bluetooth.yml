@@ -22,16 +22,7 @@ jobs:
     strategy:
       matrix:
         target:
-          - t16
-          - t18
-          - zorro
-          - tx12;tx12mk2;boxer
-          - tx16s
-          - x10;x10-access
-          - x12s
-          - x7;x7-access
-          - x9lites
-          - xlite
+          - mt12
     container:
       image: ghcr.io/edgetx/edgetx-dev:latest
       volumes:
